@@ -16,5 +16,13 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"sDoor","order":3,"path":"sprites/sDoor/sDoor.yy",},
+    {"name":"sDoorsStairs","order":4,"path":"sprites/sDoorsStairs/sDoorsStairs.yy",},
+    {"name":"sFurnitureState1","order":1,"path":"sprites/sFurnitureState1/sFurnitureState1.yy",},
+    {"name":"sFurnitureState2","order":2,"path":"sprites/sFurnitureState2/sFurnitureState2.yy",},
+    {"name":"tFurnitureState1","order":1,"path":"tilesets/tFurnitureState1/tFurnitureState1.yy",},
+    {"name":"tFurnitureState2","order":2,"path":"tilesets/tFurnitureState2/tFurnitureState2.yy",},
+    {"name":"tDoorsStairs","order":3,"path":"tilesets/tDoorsStairs/tDoorsStairs.yy",},
+  ],
 }
