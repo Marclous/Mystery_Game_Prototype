@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oEmptyCup",
+  "%Name":"oMirror",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEmptyCup",
+  "name":"oMirror",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s16x16",
-    "path":"sprites/s16x16/s16x16.yy",
+    "name":"Sprite13",
+    "path":"sprites/Sprite13/Sprite13.yy",
   },
   "spriteMaskId":null,
   "visible":true,

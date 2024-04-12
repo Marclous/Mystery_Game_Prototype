@@ -17,8 +17,8 @@
         {"$GMRInstance":"","%Name":"inst_17EB79","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17EB79","objectId":{"name":"oRoomManager","path":"objects/oRoomManager/oRoomManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"SmallItems","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SmallItems","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":45,"TileCompressedData":[
-          -199,-2147483648,1,13,-45,-2147483648,1,9,-41,-2147483648,6,0,36,44,-2147483648,52,0,-44,-2147483648,
-          1,36,-45,-2147483648,1,30,-222,-2147483648,2,24,29,-427,-2147483648,
+          -199,-2147483648,1,13,-45,-2147483648,1,0,-6,-2147483648,1,9,-34,-2147483648,6,0,36,44,-2147483648,52,
+          0,-44,-2147483648,1,36,-45,-2147483648,1,30,-222,-2147483648,2,24,15,-427,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tSmallitems","path":"tilesets/tSmallitems/tSmallitems.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Furniture2","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Furniture2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":45,"TileCompressedData":[
           -296,-2147483648,-2,0,-43,-2147483648,-2,0,-40,-2147483648,1,93,-4,0,-40,-2147483648,1,106,-4,0,-37,

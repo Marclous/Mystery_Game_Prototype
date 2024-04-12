@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oEmptyCup",
+  "%Name":"oTableNote",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEmptyCup",
+  "name":"oTableNote",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

@@ -31,12 +31,14 @@ function ChoiceAction(_text) : DialogueAction() constructor {
 	
 }
 
-function OptionAction(_text,_topic = noone,_result=0): DialogueAction() constructor {
+function OptionAction(_text,_time = 0,_topic = noone,_result=0): DialogueAction() constructor {
 	text = _text
 	topic = _topic
 	result = _result
+	time = _time
 	act = function(textbox) {
 		textbox.setRoom(result)
+		textbox.setTime(time)
 		textbox.setTopic(topic)
 		
 	}

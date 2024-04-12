@@ -80,3 +80,9 @@ setRoom = function(roomNum) {
 		room_goto(rm_future)
 	}else return
 }
+
+setTime = function(time) {
+	if time == 1 {
+		oClock.settime = true
+	}else oClock.settime = false
+}

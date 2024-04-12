@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oCoffee",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oCoffee",
   "overriddenProperties":[],
@@ -31,6 +33,9 @@
     "name":"s16x16",
     "path":"sprites/s16x16/s16x16.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"s16x16",
+    "path":"sprites/s16x16/s16x16.yy",
+  },
   "visible":true,
 }
