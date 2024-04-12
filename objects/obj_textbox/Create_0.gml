@@ -89,8 +89,8 @@ setTime = function(time) {
 
 getChoice = function(choice) {
 	if choice = 1 {
-		global.choice = 1
+		global.choice += 1
 	}else if choice = 2 {
-		global.choice = 2
+		global.choice += 2
 	}
 }

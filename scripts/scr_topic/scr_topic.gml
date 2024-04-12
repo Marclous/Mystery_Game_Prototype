@@ -3,24 +3,31 @@ global.topics = {}
 global.topics[$ "PresentPhoneNo"] = [
 	TEXT("Hello?"),
 	CHOICE("Ah, you’ve finally answered. Listen closely, I don't have much time before the connection fades. (shout out to mystery clone)",
-		OPTION("Who are you?", "Chose Who"),
-		OPTION("Where am I?", "Chose Where")
+		OPTION("Who are you?",1,0, "Chose Who"),
+		OPTION("Where am I?", 2,0, "Chose Where")
 		),
 ]
 
-global.topics[$ "FuturePhoneNo"] = [
-	TEXT("Hello?"),
-	CHOICE("Ah, you’ve finally answered. Listen closely, I don't have much time before the connection fades. (shout out to mystery clone)",
-		OPTION("Who are you?", "Chose Who"),
-		OPTION("Where am I?", "Chose Where")
+global.topics[$ "FuturePhoneNo1"] = [
+	CHOICE("Who are you",
+		OPTION("I'm someone who's been in your shoes, quite literally, though in another time.",0,0, "Chose Who1"),
+		),
+]
+global.topics[$ "FuturePhoneYes"] = [
+	TEXT("I started to understand this, I must go to past")
+]
+
+global.topics[$ "FuturePhoneNo2"] = [
+	CHOICE("Where am I?",
+		OPTION("A room apparently. I don't know where this is, but we can get through this together.",0,0, "Chose Where1")
 		),
 ]
 
 global.topics[$ "PastTimeNo"] = [
 	CHOICE("Turn the time to...",
-		OPTION("1:26", 0),
-		OPTION("7:00", 1),
-		OPTION("9:24", 0)
+		OPTION("1:26", 0, 0),
+		OPTION("7:00", 0, 1),
+		OPTION("9:24", 0, 0)
 		),
 ]
 
@@ -63,12 +70,26 @@ global.topics[$ "Chose Who"] = [
 	TEXT("Also keep an eye on the clock, it could tell you more than time. Pl... do ge... out!"),
 	TEXT("(The voice faded)")
 	]
+	
+global.topics[$ "Chose Who1"] = [
+	TEXT("I'm someone who's been in your shoes, quite literally, though in another time."),
+	TEXT("You may already noticed. The painting in your room could take you to places."),
+	TEXT("Also keep an eye on the clock, it could tell you more than time. Pl... do ge... out!"),
+	TEXT("(The call suddenly got cut)")
+	]
 
 global.topics[$ "Chose Where"] = [
 	TEXT("A room apparently. I don't know where this is, but we can get through this together."),
 	TEXT("You may already noticed. The painting in your room could take you to places."),
 	TEXT("Also keep an eye on the clock, it could tell you more than time. Pl... do ge... out!"),
 	TEXT("(The voice faded)")
+	]
+
+global.topics[$ "Chose Where1"] = [
+	TEXT("A room apparently. I don't know where this is, but we can get through this together."),
+	TEXT("You may already noticed. The painting in your room could take you to places."),
+	TEXT("Also keep an eye on the clock, it could tell you more than time. Pl... do ge... out!"),
+	TEXT("(The call suddenly got cut)")
 	]
 
 global.topics[$ "Door"] = [
@@ -125,6 +146,10 @@ global.topics[$ "RecordPlayerPresent"] = [
 	TEXT("No CD in it. I would like some jazz."),
 	]
 
+global.topics[$ "RecordPlayerFuture"] = [
+	TEXT("One of my favorite jazz hiphop"),
+	]
+
 global.topics[$ "BookPresent"] = [
 	TEXT("'Modern Chess Openings', page 54"),
 	]
@@ -154,7 +179,7 @@ global.topics[$ "DoorNote"] = [
 	TEXT("The very moment that I find peace in time"),
 	]
 
-global.topics[$ "PresentTime"] = [
+global.topics[$ "FutureTime"] = [
 	TEXT("It says 9:24"),
 	TEXT("Looks like I'm in future")
 	]

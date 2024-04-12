@@ -17,11 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oDoorNote","order":20,"path":"objects/oDoorNote/oDoorNote.yy",},
     {"name":"oBook","order":13,"path":"objects/oBook/oBook.yy",},
     {"name":"oClock","order":15,"path":"objects/oClock/oClock.yy",},
     {"name":"oCoffee","order":11,"path":"objects/oCoffee/oCoffee.yy",},
     {"name":"oDoor","order":1,"path":"objects/oDoor/oDoor.yy",},
+    {"name":"oDoorNote","order":20,"path":"objects/oDoorNote/oDoorNote.yy",},
     {"name":"oDrawing","order":5,"path":"objects/oDrawing/oDrawing.yy",},
     {"name":"oEmptyCup","order":10,"path":"objects/oEmptyCup/oEmptyCup.yy",},
     {"name":"oEmptyPot","order":17,"path":"objects/oEmptyPot/oEmptyPot.yy",},
