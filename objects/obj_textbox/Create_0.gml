@@ -73,8 +73,10 @@ setText = function(newText) {
 
 setRoom = function(roomNum) {
 	if roomNum == 1 {
-		room_goto(rm_voice_happy)
+		room_goto(rm_past)
 	}else if roomNum == 2 {
-		room_goto(rm_voice_angry)
+		room_goto(rm_present)
+	}else if roomNum == 3 {
+		room_goto(rm_future)
 	}else return
 }
