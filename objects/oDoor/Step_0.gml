@@ -1,8 +1,12 @@
-
-if mouse_check_button_released(mb_left) {
-	if (point_in_rectangle(mouse_x, mouse_y, x - sprite_width / 2, y - sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2))
-	{
+image_index = index
+if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)) {
 	    show_debug_message("door")
-		image_index = 1
-	}
-}else image_index = 0
+		
+		if index!=0 {
+			index = 0 
+		}else {
+			startDialogue("Door")
+			index = 1
+		}
+		
+}

@@ -7,10 +7,12 @@ function DialogueAction() constructor {
 	act = function(){ }
 }
 
-function TextAction(_text) : DialogueAction() constructor {
+function TextAction(_text, _result=0) : DialogueAction() constructor {
 	text = _text
+	result = _result
 	act = function(textbox) {
 		textbox.setText(text)
+		textbox.setRoom(result)
 	}
 }
 

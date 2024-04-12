@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oFridge",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBook",
+  "eventList":[],
   "managed":true,
-  "name":"oFridge",
+  "name":"oBook",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sFridge",
-    "path":"sprites/sFridge/sFridge.yy",
+    "name":"s16x16",
+    "path":"sprites/s16x16/s16x16.yy",
   },
   "spriteMaskId":null,
   "visible":true,
