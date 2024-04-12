@@ -8,14 +8,31 @@ global.topics[$ "PresentPhoneNo"] = [
 		),
 ]
 
-global.topics[$ "PastTime"] = [
+global.topics[$ "FuturePhoneNo"] = [
+	TEXT("Hello?"),
+	CHOICE("Ah, you’ve finally answered. Listen closely, I don't have much time before the connection fades. (shout out to mystery clone)",
+		OPTION("Who are you?", "Chose Who"),
+		OPTION("Where am I?", "Chose Where")
+		),
+]
+
+global.topics[$ "PastTimeNo"] = [
 	CHOICE("Turn the time to...",
 		OPTION("1:26", 0),
-		OPTION("6:00", 0),
 		OPTION("7:00", 1),
 		OPTION("9:24", 0)
 		),
 ]
+
+global.topics[$ "PastTimeYes"] = [
+	CHOICE("Turn the time to...",
+		OPTION("1:26", 0),
+		OPTION("12:37", 2),
+		OPTION("7:00", 1),
+		OPTION("9:24", 0)
+		),
+]
+
 global.topics[$ "TableNote"] = [
 	TEXT("'The past is never dead, it's not even past.' --William Faulkner's 'Requiem for a Nun'"),
 
@@ -79,6 +96,21 @@ global.topics[$ "FridgePresent"] = [
 	TEXT("(blurred number)...tomatoes, ...indian squash, ...mushroom, ...eggplants"),
 	TEXT("I wonder what this means")
 	]
+	
+global.topics[$ "FridgeFuture"] = [
+	TEXT("I wonder who opened the fridge"),
+	TEXT("...1 indian squash, 2 boxes of mushroom, 6 eggplants... a lot of stuff"),
+	TEXT("Someone finished that shopping list")
+	]
+global.topics[$ "RedPot"] = [
+	TEXT("Looks like someone put a whole tomato in it"),
+	TEXT("I thought I was the only one who does that.")
+	]
+
+global.topics[$ "WhitePot"] = [
+	TEXT("Cream mushroom soup? That explains the empty box which used to have mushroom."),
+	TEXT("That's my favorite soup")
+	]
 
 global.topics[$ "PresentTime"] = [
 	TEXT("It says 7:00"),
@@ -97,14 +129,32 @@ global.topics[$ "BookPresent"] = [
 	TEXT("'Modern Chess Openings', page 54"),
 	]
 
+global.topics[$ "BookFuture"] = [
+	TEXT("'Modern Chess Openings', page 61"),
+	]
+
 global.topics[$ "VasePresent"] = [
 	TEXT("Some rose would be nice"),
+	]
+	
+global.topics[$ "VaseFuture"] = [
+	TEXT("Is there a Zephrus the Great in my deck?"),
+	TEXT("Such nice roses")
 	]
 
 global.topics[$ "EmptyPotPresent"] = [
 	TEXT("A regular pot for cooking"),
 	]
+
+global.topics[$ "EmptyCupFuture"] = [
+	TEXT("I wonder why I felt more energetic"),
+	]
 	
 global.topics[$ "DoorNote"] = [
 	TEXT("The very moment that I find peace in time"),
+	]
+
+global.topics[$ "PresentTime"] = [
+	TEXT("It says 9:24"),
+	TEXT("Looks like I'm in future")
 	]

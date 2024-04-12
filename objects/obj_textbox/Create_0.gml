@@ -86,3 +86,11 @@ setTime = function(time) {
 		oClock.settime = true
 	}else oClock.settime = false
 }
+
+getChoice = function(choice) {
+	if choice = 1 {
+		global.choice = 1
+	}else if choice = 2 {
+		global.choice = 2
+	}
+}

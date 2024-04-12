@@ -4,4 +4,5 @@ if room == rm_present {
 	startDialogue("DrawingPast")
 }else if room == rm_future {
 	startDialogue("DrawingFuture")
+
 }
